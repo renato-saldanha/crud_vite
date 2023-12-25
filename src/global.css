@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+:root {
+  --white: #ffffff;
+  --black: black;
+
+  --blue-200:#5bc3c3;
+  --blue-400: #30a2ac;
+  --blue-600: #11656c;
+
+  --gray-300: #bfbfbf;
+  --gray-500: #797979;
+
+  --green-300: #00ce67;
+  
+  --red-500: #ff0000;
+
+
+  color: var(--white);
+  background-color: var(--blue-600);
+  
+}
+
+button, input, a, label{
+  size: 1rem;
+  font-weight: bold;
+}
